@@ -1,0 +1,9 @@
+
+# push your issue branch 
+
+$[issue-branch] git push // if this returns an error, follow the instructions
+
+$[issue-branch] git push --set-upstream origin issue-branch // only necessary the first time you push
+
+☝️  git will show you this command when you try to push a branch for the first time
+

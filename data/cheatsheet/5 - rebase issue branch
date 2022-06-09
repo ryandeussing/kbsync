@@ -1,0 +1,13 @@
+
+# rebase issue branch onto main
+
+$[main] git pull // synchronize your 'main' with any remote changes - no changes = no need to rebase
+
+$[main] git switch issue-id // switch/checkout the issue branch you want to rebase
+
+$[issue-branch] git status // make sure you have no uncommited changes
+
+$[issue-branch] git rebase origin/main // add changes from origin main to your issue branch
+
+$[issue-branch] git push -f // force push required any time you have rebased a branch
+

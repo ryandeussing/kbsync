@@ -1,0 +1,33 @@
+
+# espanso triggers
+
+⚡ you must have espanso installed - see `espanso.org`
+
+
+// git shortcuts for command line
+
+log: // see the commit log of the current branch
+
+add: // stage all changed, added, and deleted files
+
+amend: // amend the previous commit on the current branch
+
+branches: // list all your local branches and their last commit
+
+git-local: // open the git config for the repo you are in
+
+d-local: // delete current branch locally
+
+d-remote: // delete current branch on origin
+
+
+// git shortcuts for editor
+
+message: // commit message template (use in editor)
+
+
+// general shortcuts
+
+zsh: // open your .zshrc 
+
+date: // current date

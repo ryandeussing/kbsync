@@ -1,0 +1,11 @@
+
+# create an issue branch
+
+$[main] git pull // confirm you are on 'main'; pull changes
+
+$[main] git switch -c <issue-id> // create a new branch named for an issue, e.g. RHINDOC-123
+
+$[issue-branch] git commit --allow-empty -m 'empty initial commit' // on issue branch, make an empty commit you will amend
+
+☝️  suggested espanso trigger: `gce:`
+

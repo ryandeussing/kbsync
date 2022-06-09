@@ -1,0 +1,15 @@
+
+# create a merge request from the command line
+
+the first time you push a branch, git will give you a url you can use to create a merge request
+
+# create a merge request in GitLab
+
+- in the 'Merge requests' tab, click the 'New merge request' button
+  - select your issue branch as the 'Source branch' and 'main' as the 'Target branch'
+  - select the 'mr-template' for the description
+  - set the 'Assignee' (usually the DPM)
+  - set the 'Reviewer' if the MR is ready for review, otherwise do that when it is ready
+  - if you don't plan to publish the changes upon merging them, add the 'hold' label
+- click 'Create merge request'
+

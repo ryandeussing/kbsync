@@ -1,0 +1,11 @@
+
+# import the latest cheatsheets
+
+- download (do not uncompress) the latest knowledge base archive: 
+
+`github.com/ryandeussing/kbsync/raw/main/latest.kb.tar.gz`
+
+- import the archive with this command:
+
+$ kb import {path-to-latest.kb.tar.gz}
+

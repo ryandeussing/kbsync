@@ -1,0 +1,51 @@
+
+# amend your commit
+
+// when you add additional changes to your issue branch, add 
+// them to your existing commit instead of making new commits
+
+$[issue-branch] git log --oneline // confirm you have an initial commit
+
+$[issue-branch] git status // confirm the files that have uncommited changes
+
+$[issue-branch] git add -A // stage all the files with changes
+
+$[issue-branch] git commit --amend // amend the previous commit
+
+☝️  suggested espanso trigger: `amend:`
+
+# commit message template
+
+// when you amend your existing commit, use this template and
+// then update it each time you run 'git commit --amend'
+
+Commit subject line
+
+Added
+- n/a
+
+Changed
+- n/a
+
+Fixed
+- n/a
+
+Removed
+- n/a
+
+# example commit message
+
+Add eventing discussion to drift and policy titles
+
+Added
+- sections on enabling notifications to 'drift-comparison' and 'policies-monitoring'
+
+Changed
+- notification configutation details in 'advisor-service-reports'
+
+Fixed
+- n/a
+
+Removed
+- n/a
+

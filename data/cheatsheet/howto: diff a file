@@ -1,0 +1,7 @@
+
+# diff a file
+
+1. install GitLens extension in VSCode: `red.ht/gitlens`
+   
+2. explore the commits affecting any file - see `red.ht/diff-file`
+
