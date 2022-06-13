@@ -1,33 +1,25 @@
 
 ⚡ espanso triggers
 
-## git shortcuts for command line
+## install the package
 
-:log // see the commit log of the current branch
+$ espanso install ccs-package --git git@github.com:ryandeussing/red-hat-css-package.git --external
 
-:gce // make an empty commit to start off your issue branch
+## sync the package
 
-:add // stage all changed, added, and deleted files
+$ espanso package update ccs-package
 
-:amend // amend the previous commit on the current branch
- 
-:branches // list all your local branches and their last commit
+## view the triggers locally
 
-:git-local // open the git config for the repo you are in
+$ espanso path // copy the 'Config' path
 
-:d-local // delete current branch locally
+$ code {config-path} // e.g. '/Users/user/Library/Preferences/espanso' or '/home/user/.config/espanso'
 
-:d-remote // delete current branch on origin
+☝️  package.yml contains the shared triggers
 
+## add a personal trigger for your espanso config
 
-## git shortcuts for editor
-
-:message // commit message template (use in editor)
-
-
-## general shortcuts
-
-:zsh // open your .zshrc 
-
-:date // current date
-
+```
+  - trigger: ":espanso"
+    replace: code {config-path}
+```
