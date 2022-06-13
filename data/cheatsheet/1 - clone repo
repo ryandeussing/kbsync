@@ -1,7 +1,4 @@
-
-# clone repo
+⚡ clone repo
 
 $ git clone git@gitlab.redhat.com:insights-documentation.git // in the directory you use for git repos 
-
-
 

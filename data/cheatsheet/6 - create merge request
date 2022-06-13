@@ -1,9 +1,11 @@
 
-# create a merge request from the command line
+⚡ create a merge request 
+
+## create an MR from the command line
 
 the first time you push a branch, git will give you a url you can use to create a merge request
 
-# create a merge request in GitLab
+## create an MR in GitLab
 
 - in the 'Merge requests' tab, click the 'New merge request' button
   - select your issue branch as the 'Source branch' and 'main' as the 'Target branch'

@@ -1,15 +1,12 @@
 
-# update a merge request
-
-⚠️  do not use 'git commit --amend' to update a branch with an open MR
+⚡ update a merge request
 
 $[issue-branch] git status // confirm the files that have uncommited changes
 
 $[issue-branch] git add -A // stage all the files with changes
 
-$[issue-branch] git commit -m '{your commit message}' // make a standard commit + one-line message
+$[issue-branch] git commit -m '{your commit message}' // ⚠️  not 'git commit --amend'
 
 $[issue-branch] git push
-
-> when you push additinal commits to an MR they will be squashed on merge
+    - when you push additinal commits to an MR they will be squashed on merge
 

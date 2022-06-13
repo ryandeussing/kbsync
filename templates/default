@@ -1,2 +1,6 @@
 TITLES = [ "^#.*", "blue",]
-WARNINGS = [ "^!.*", "yellow",]
+WARNINGS = [ "!.*", "#CB4B16",]
+INLINECOMMENTS = [ "//.*", "#96A1A1",]
+BLOCKCOMMENTS = [ "^>.*", "#96A1A1",]
+COMMANDLINE = [ '\$.*', "#859900",]
+CODE = [ "`.*", "#CB4B16",]

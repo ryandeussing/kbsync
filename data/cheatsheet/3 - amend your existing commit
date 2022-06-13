@@ -1,8 +1,7 @@
 
-# amend your commit
+⚡ amend your commit
 
-// when you add additional changes to your issue branch, add 
-// them to your existing commit instead of making new commits
+// this creates one commit on your issue branch instead of many
 
 $[issue-branch] git log --oneline // confirm you have an initial commit
 
@@ -12,12 +11,11 @@ $[issue-branch] git add -A // stage all the files with changes
 
 $[issue-branch] git commit --amend // amend the previous commit
 
-☝️  suggested espanso trigger: `amend:`
+☝️  espanso trigger: `:amend`
 
-# commit message template
+## commit message template
 
-// when you amend your existing commit, use this template and
-// then update it each time you run 'git commit --amend'
+// use this template and update it each time you run 'git commit --amend'
 
 Commit subject line
 
@@ -33,7 +31,7 @@ Fixed
 Removed
 - n/a
 
-# example commit message
+## example commit message
 
 Add eventing discussion to drift and policy titles
 

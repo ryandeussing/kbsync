@@ -1,5 +1,5 @@
 
-# rebase issue branch onto main
+#⚡ rebase issue branch onto main
 
 $[main] git pull // synchronize your 'main' with any remote changes - no changes = no need to rebase
 

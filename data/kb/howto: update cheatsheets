@@ -1,11 +1,16 @@
 
-# import the latest cheatsheets
+⚡ import the latest cheatsheets
+## first time
 
-- download (do not uncompress) the latest knowledge base archive: 
+$ rm -rf ~/.kb // remove any ~/.kb directory that may exist
 
-`github.com/ryandeussing/kbsync/raw/main/latest.kb.tar.gz`
+$ git clone https://github.com/ryandeussing/kbsync.git ~/.kb // clone cheatsheets into a '~/.kb' directory
 
-- import the archive with this command:
+$ kb list // in a new terminal tab - if you don't see a list of cheatsheets, ask for help
 
-$ kb import {path-to-latest.kb.tar.gz}
+$ kb sync pull // synch changes - if you don't see 'Repository correctly synchronized from remote', ask for help.
+
+## after the first time
+
+$ kb sync pull
 

@@ -1,26 +1,27 @@
 
-# git workflow
+⚡ git workflow
 
 // this is an overview
 // see individual cheatsheets for commands
 
-1. Create an issue branch
+## create an issue branch
+   - branch name = Jira issue key
    
-2. Make an empty initial commit on your issue branch
+## make an empty initial commit on your issue branch
    - this prevents amending someone else's commit
    
-3. Make changes on your issue branch and commit them
-   - using 'git commit --amend'
+## make changes on your issue branch and commit them
+   - using 'git commit --amend`
 
-5. Preview your changes in your editor (VSCode, Atom, etc)
+## preview your changes in your editor (VSCode, Atom, etc)
    - don't build when you can avoid it
    
-6. Push your issue branch to origin as you commit work
+## push your issue branch to origin as you commit work
    - for both backup and for sharing
 
-7. Preview your changes again on GitLab
+## preview your changes again on GitLab
    - they should look the same as local preview in your editor
    
-8. Rebase your issue branch regularly
+## rebase your issue branch regularly
    - this keeps it synched with origin main
 
