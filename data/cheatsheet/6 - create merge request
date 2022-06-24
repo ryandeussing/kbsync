@@ -1,9 +1,13 @@
 
 ⚡ create a merge request 
 
+// there are two ways to create an MR
+
 ## create an MR from the command line
 
 the first time you push a branch, git will give you a url you can use to create a merge request
+
+☝️  ignore that option unless your work is complete the first time you push your issue branch
 
 ## create an MR in GitLab
 

@@ -31,6 +31,8 @@ Fixed
 Removed
 - n/a
 
+☝️  espanso trigger: `:message`
+
 ## example commit message
 
 Add eventing discussion to drift and policy titles

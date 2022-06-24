@@ -14,14 +14,32 @@
    - using 'git commit --amend`
 
 ## preview your changes in your editor (VSCode, Atom, etc)
-   - don't build when you can avoid it
+   - don't run a containerized build when you can avoid it
    
 ## push your issue branch to origin as you commit work
    - for both backup and for sharing
 
-## preview your changes again on GitLab
-   - they should look the same as local preview in your editor
+## preview your branch on GitLab
+   - the same commit should output the same HTML (in GitLab and in your editor)
    
-## rebase your issue branch regularly
+## rebase your issue branch regularly (before you have a merge request)
    - this keeps it synched with origin main
+
+## create a merge request (when your work is complete)
+   - when your branch has an MR
+      - ⚠️  do not 'git commit --amend'
+      - ⚠️  do not rebase (don't rebase locally, don't click the rebase button on the MR)
+      - ⚠️  do not force push
+
+## update your merge request by applying suggestions in GitLab
+   - apply them as a batch to minimize additional commits
+
+## update your merge request with a new commit from your local issue branch
+   - 'git pull' the issue branch before making any changes // in case new commits exist on the MR
+   - aim for a single commit with any new changes
+   - do not amend, do not rebase, do not force push
+
+## mark your MR as ready
+   - the MR will be merged
+
 

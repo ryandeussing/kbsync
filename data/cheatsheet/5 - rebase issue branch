@@ -9,7 +9,7 @@ $[issue-branch] git status // make sure you have no uncommited changes
 
 $[issue-branch] git rebase origin/main // add changes from origin main to your issue branch
 
-☝️  review the changes - does the log make sense, does the rendered AsciiDoc look just right?
+☝️  does the commit log make sense? espanso trigger: `:log`
 
 $[issue-branch] git push -f // force push required any time you have rebased a branch
 
