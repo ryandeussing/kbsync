@@ -1,0 +1,20 @@
+
+⚡ cli setup (linux)
+
+the following tools and configurations are for you to consider using as a baseline - it's split into a macOS section and a Linux section.
+
+## Tools #1 & 2 - Terminator, ohmyzsh
+
+this blog post - `maxim-danilov.github.io/make-linux-terminal-great-again` - covers the Linux installation of Terminator (similar to iTerm2), zsh, and ohmyzsh using solarized colors.
+
+☝️  note: the author makes some additional plugin suggestions and uses a different way of removing the default prefix - YMMV
+
+☝️  note: RHEL CSB doesn't let you set `zsh` as your default shell, but once it's installed  you can run it - `redhat.service-now.com/kb?id=kb_article&sys_id=5ee7081b1b7898d04cec766dcc4bcb6e`
+
+## Tool #3 - espanso
+
+these instructions - `snapcraft.io/install/espanso/rhel` - cover installing Snap and espanso via Snap, which is probably what you want to do.
+
+the espanso docs have more info on installing on Linux - `espanso.org/docs/install/linux/`
+
+once espanso is installed, you can follow the steps in the Mac instructions to download and update our shared shortcuts.

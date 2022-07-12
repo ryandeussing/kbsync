@@ -1,13 +1,22 @@
 
-⚡ espanso triggers
+⚡ espanso ftw
 
-## install the package
+## install espanso
+
+https://espanso.org/install/
+
+## install our shared espanso triggers
 
 $ espanso install ccs-package --git git@github.com:ryandeussing/red-hat-css-package.git --external
 
-## sync the package
+## sync the package to get updates to our shared espanso triggers
 
 $ espanso package update ccs-package
+
+## search triggers
+
+Mac: `option + space`
+Linux: `alt + space`
 
 ## view the triggers locally
 
@@ -19,7 +28,7 @@ $ code {config-path} // e.g. '/Users/user/Library/Preferences/espanso' or '/home
 
 ## add a personal trigger for your espanso config
 
-```
+
   - trigger: ":espanso"
     replace: code {config-path}
-```
+

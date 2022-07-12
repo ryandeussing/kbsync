@@ -1,0 +1,63 @@
+
+⚡ cli setup (mac)
+
+the following tools and configurations are for you to consider using as a baseline - it's split into a macOS section and a Linux section.
+
+## Tool #1 - iTerm2
+
+Iterm2 - download at `iterm2.com` - is a better Unix terminal emulator tham the one that ships with macOS. It's an app, you download it and simply run it instead of Terminal.app
+
+## Tool #2 - ohmyzsh
+
+`zsh` is an optional, extensible replacement for the default `bash` shell, and ohmyz.sh is a tool that makes `zsh` configuration easy via themes.
+
+to install ohmyzsh, run the installation script found at `ohmyz.sh/#install` from the command line and then restart your terminal.
+
+## agnosto theme
+
+you can choose any ohmyzsh theme, but a good starting point is `agnosto` - to install and configure it:
+
+1. open `.zshrc` (your ohmyzsh configuration file)
+
+$ code ~/.zshrc
+
+☝️  note: `code` is the default alias for Visual Studio Code
+
+1. in your `.zshrc`, assign the ZSH_THEME variable by adding this line: 
+
+`ZSH_THEME="agnoster"` 
+
+2. save your `.zshrc` file and then source it
+
+$ source ~/.zshrc
+
+now you'll see the theme in iTerm2, but the fonts and colors will probably look a bit off - let's fix that
+
+4. install the Powerline fonts (for displaying symbols on the command line)
+
+$ git clone git@github.com:powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+$ cd ..
+$ rm -rf fonts
+
+5. select `Go Mono for Powerline` as the "Non-ASII font" in your terminal or terminal emulator settings
+
+now your fonts should look great, but the colors will need some tweaking
+
+6. download this Color Preset file: `raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors` (the filename will be "Solarized Dark - Patched.itermcolors")
+
+7. import and apply the above Color Preset file into iTerm2:
+
+- open the iTerm2 preferences
+- find the 'Color Presets' dropdown at 'Profiles > Colors'
+- in the 'Color Presets' dropdown, select 'Import ...'
+- select 'Solarized Dark - Patched.itermcolors' from wherever you saved it
+- after importing, make sure the 'Solarized Dark' Color Preset is selected
+
+8. make a couple adjustments to your `.zshrc` file
+
+- add the line `DEFAULT_USER=$(whoami)` to remove the default, clunky prefix from your shell prompt
+
+☝️  note: it's a good idea to add a comment next to each function or variable you add to your `.zshrc` so in future you'll have some idea what you were thinking when you made each change
+
