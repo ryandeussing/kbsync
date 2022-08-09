@@ -11,6 +11,8 @@ $[issue-branch] git add -A // stage all the files with changes
 
 $[issue-branch] git commit --amend // amend the previous commit
 
+⚠️  to back-out without amending the commit, save an empty commit message
+
 ☝️  espanso trigger: `:amend`
 
 ## commit message template
