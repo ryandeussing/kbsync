@@ -1,6 +1,12 @@
 
 ⚡ push your issue branch 
 
+$[issue-branch] git log --all --decorate --oneline --graph // confirm that you have commits to push
+
+☝️  espanso trigger: `:log`
+
+⚠️  if you don't have commits, you probably don't want to push
+
 $[issue-branch] git push // if this returns an error, follow the instructions
 
 $[issue-branch] git push --set-upstream origin issue-branch // only necessary the first time you push

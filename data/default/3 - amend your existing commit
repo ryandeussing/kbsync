@@ -1,17 +1,21 @@
 
 ⚡ amend your commit
 
-// this creates one commit on your issue branch instead of many
-
-$[issue-branch] git log --oneline // confirm you have an initial commit
+// the goal here is a single commit on your issue branch instead of multiple commits
 
 $[issue-branch] git status // confirm the files that have uncommited changes
 
 $[issue-branch] git add -A // stage all the files with changes
 
+$[issue-branch] git log --oneline // confirm the most recent commit on this branch is yours
+
+☝️  espanso trigger: `:log`
+
+⚠️  if the most recent commit is not yours and one created on this issue branch, do not proceed - you may still need to make an initial commit
+
 $[issue-branch] git commit --amend // amend the previous commit
 
-⚠️  to back-out without amending the commit, save an empty commit message
+⚠️  to back-out without amending the commit, save a completely empty commit message
 
 ☝️  espanso trigger: `:amend`
 
