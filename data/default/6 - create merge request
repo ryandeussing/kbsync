@@ -19,3 +19,4 @@ the first time you push a branch, git will give you a url you can use to create 
   - if you don't plan to publish the changes upon merging them, add the 'hold' label
 - click 'Create merge request'
 
+⚠️  MRs are disposable before any collaboration has taken place on them. If you open an MR and it's a mess, just close it. Open a new one when your branch is in better shape.
