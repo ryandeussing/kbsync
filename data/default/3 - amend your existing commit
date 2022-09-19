@@ -25,6 +25,9 @@ $[issue-branch] git commit --amend // amend the previous commit
 
 Commit subject line
 
+Titles to re/publish upon merge
+- n/a
+
 Added
 - n/a
 
@@ -42,6 +45,10 @@ Removed
 ## example commit message
 
 Add eventing discussion to drift and policy titles
+
+Titles to re/publish upon merge
+- Ensuring Approved Packages Are Installed Across System Profiles Using the Drift Service
+- Monitoring and Reacting to Configuration Changes Using Policies
 
 Added
 - sections on enabling notifications to 'drift-comparison' and 'policies-monitoring'
