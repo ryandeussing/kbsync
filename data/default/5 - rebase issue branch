@@ -5,7 +5,7 @@ $[main] git pull // synchronize your 'main' with any remote changes from `origin
 
 $[main] git switch issue-id // switch/checkout the issue branch you want to rebase
 
-$[issue-branch] git status // make sure you have no uncommited changes on your issue branch
+$[issue-branch] git status // make sure you have no uncommited changes on your issue branch - see `kb 3` if you do
 
 $[issue-branch] git rebase origin/main // add changes you just pulled from `origin main` to your issue branch
 

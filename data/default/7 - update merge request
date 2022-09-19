@@ -1,6 +1,20 @@
 
 ⚡ update a merge request
 
+// there are two ways to update an MR
+
+## accept suggestions on the MR
+
+when you get code suggestions on the MR, you can apply them
+
+☝️  add multiple suggestions to a batch so they result in one commit
+
+## update your branch locally
+
+when you need to add or modify changes on your branch with an open MR, make a commit locally
+
+⚠️  don't use the GitLab UI - among other complications, it creates a commit for every changed file
+
 $[issue-branch] git pull // make sure you have integrated any changes that have been added to the MR
 
 $[issue-branch] git status // confirm the files you have changed locally

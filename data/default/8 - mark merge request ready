@@ -1,7 +1,7 @@
 
 ⚡ mark a merge request ready
 
-when all the work on your MR is complete and it should be merged, you can mark it ready in GitLab UI.
+when your MR should be merged, you can mark it ready in GitLab UI.
 
 ☝️  it's the author's responsibility to mark their MR as ready
 
