@@ -1,6 +1,6 @@
 ⚡ create an issue branch
 
-// Documentation requirements reside in Jira. When you're ready to work on a Jira issue, you should create an issue branch
+// Doc requirements reside in Jira. When you're ready to work on a Jira issue, you should create an issue branch
 // on your local clone of the repository. You should also add an empty commit to it, to safeguard against accidentally
 // amending the wrong commit later.
 

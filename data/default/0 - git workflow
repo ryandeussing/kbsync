@@ -1,8 +1,8 @@
 ⚡ git workflow
 
-// this is a highly condensed version of https://docs.engineering.redhat.com/display/HCCDOC/HCCDOC+Git+workflow
-// the workflow steps below are displayed in the sequence a new contributor might use them, from cloning a repository
-// to making their first merge request -experienced contributors can also use this guide as a reference without
+// This is a highly condensed version of https://docs.engineering.redhat.com/display/HCCDOC/HCCDOC+Git+workflow
+// The workflow steps below are displayed in the sequence a new contributor might use them, from cloning a repository
+// to making their first merge request - experienced contributors can also use this guide as a reference without
 // following the content sequentially.
 
 ## clone the repo
