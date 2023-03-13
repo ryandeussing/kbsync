@@ -1,59 +1,71 @@
-
 ⚡ git workflow
 
-// this is an overview
-// see individual cheatsheets for commands
+// this is a highly condensed version of https://docs.engineering.redhat.com/display/HCCDOC/HCCDOC+Git+workflow
+// the workflow steps below are displayed in the sequence a new contributor might use them, from cloning a repository
+// to making their first merge request -experienced contributors can also use this guide as a reference without
+// following the content sequentially.
 
 ## clone the repo
-  - see `kb 1`
 
-## create an issue branch 
-   - branch name = Jira issue key
-   - see `kb 2`
-   
-## make an empty initial commit on your issue branch 
-   - this prevents amending someone else's commit
-   - see `kb 2`
-   
+- see `kb 1`
+
+## create an issue branch
+
+- branch name = Jira issue key
+- see `kb 2`
+
+## make an empty initial commit on your issue branch
+
+- this prevents amending someone else's commit
+- see `kb 2`
+
 ## work + preview your changes in your editor (VSCode, Atom, etc)
-   - don't run a containerized build when you can avoid it
-  
+
+- lean on VSCode preview - it's the fastest way to see your Asciidoc changes in HTML
+
 ## commit changes on your issue branch `kb 3`
-   - view the commit log to confirm the last commit is yours
-   - aim for a single commit via 'git commit --amend`
-   - replace your empty initial commit with our template
-     - espanso trigger = ':message' 
-   - see `kb 3`
-  
-## push your issue branch to origin for backup and to make work visible 
-   - view the commit log to confirm the commit you are pushing
-   - see `kb 4`
-   
+
+- view the commit log to confirm the last commit is yours
+- aim for a single commit via 'git commit --amend`
+- replace your empty initial commit with our template
+  - espanso trigger = ':commit'
+- see `kb 3`
+
+## push your issue branch to origin for backup and to make work visible
+
+- view the commit log to confirm the commit you are pushing
+- see `kb 4`
+
 ## rebase your issue branch regularly (before you have a merge request)
-   - this keeps it synched with origin main
-   - see `kb 5`
+
+- this keeps it synched with origin main
+- see `kb 5`
 
 ## create a merge request (when you think the work is ready to be merged)
-   - note: when your branch has an open MR
-      - ⚠️  do not 'git commit --amend'
-      - ⚠️  do not rebase (don't rebase locally, don't click the rebase button on the MR)
-      - ⚠️  do not force push
-   - see `kb 6` 
+
+- mark it draft
+- apply the preflighted label
+- note: when your branch has an open MR
+  - ⚠️ do not 'git commit --amend'
+  - ⚠️ do not rebase (don't rebase locally, don't click the rebase button on the MR)
+  - ⚠️ do not force push
+- see `kb 6`
 
 ## update your merge request by applying suggestions in GitLab
-   - apply them as a batch to minimize additional commits
-   - additional commit(s) will be squashed on merge
-   - see `kb 7`
+
+- apply them as a batch to minimize additional commits
+- additional commit(s) will be squashed on merge
+- see `kb 7`
 
 ## update your merge request with a new commit from your local issue branch
-   - 'git pull' the issue branch before making any changes // in case new commits exist on the MR
-   - aim for a single commit with any new changes
-   - ⚠️  do not amend, do not rebase, do not force push
-   - additional commit(s) will be squashed on merge
-   - see `kb 7`
+
+- 'git pull' the issue branch before making any changes // in case new commits exist on the MR
+- aim for a single commit with any new changes
+- ⚠️ do not amend, do not rebase, do not force push
+- additional commit(s) will be squashed on merge
+- see `kb 7`
 
 ## mark your MR as ready
-   - the MR will be merged
-   - see `kb 8`
 
-
+- the MR will be merged
+- see `kb 8`

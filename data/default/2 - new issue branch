@@ -1,5 +1,8 @@
-
 ⚡ create an issue branch
+
+// Documentation requirements reside in Jira. When you're ready to work on a Jira issue, you should create an issue branch
+// on your local clone of the repository. You should also add an empty commit to it, to safeguard against accidentally
+// amending the wrong commit later.
 
 $[main] git pull // confirm you are on 'main'; pull changes
 
@@ -7,5 +10,4 @@ $[main] git switch -c <issue-id> // create a new branch named for an issue, e.g.
 
 $[issue-branch] git commit --allow-empty -m 'empty initial commit' // on issue branch, make an empty commit you will amend
 
-☝️  espanso trigger: `:gce`
-
+☝️ espanso trigger: `:gce`

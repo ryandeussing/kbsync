@@ -1,5 +1,9 @@
 
-⚡ push your issue branch 
+⚡ push your issue branch
+
+// It's good practice to push your branch to origin when you make commits. This way you can share the
+// up-to-date branch if you ever need to, and you also have a backup of your work on origin that is
+// as recent as your last push.
 
 $[issue-branch] git log --all --decorate --oneline --graph // confirm that you have commits to push
 

@@ -1,7 +1,7 @@
-
 ⚡ amend your commit
 
-// the goal here is a single commit on your issue branch instead of multiple commits
+// We don't want to string together multiple commits that will create a confusing merge request. When possible
+// we want all the changes on an issue branch to be reflected in a single commit.
 
 $[issue-branch] git status // confirm the files that have uncommited changes
 
@@ -9,15 +9,15 @@ $[issue-branch] git add -A // stage all the files with changes
 
 $[issue-branch] git log --oneline // confirm the most recent commit on this branch is yours
 
-☝️  espanso trigger: `:log`
+☝️ espanso trigger: `:log`
 
-⚠️  if the most recent commit is not yours and one created on this issue branch, do not proceed - you may still need to make an initial commit
+⚠️ if the most recent commit is not yours and one created on this issue branch, do not proceed - you may still need to make an initial commit
 
 $[issue-branch] git commit --amend // amend the previous commit
 
-⚠️  to back-out without amending the commit, save a completely empty commit message
+⚠️ to back-out without amending the commit, save a completely empty commit message
 
-☝️  espanso trigger: `:amend`
+☝️ espanso trigger: `:amend`
 
 ## commit message template
 
@@ -26,39 +26,48 @@ $[issue-branch] git commit --amend // amend the previous commit
 Commit subject line
 
 Titles to re/publish upon merge
+
 - n/a
 
 Added
+
 - n/a
 
 Changed
+
 - n/a
 
 Fixed
+
 - n/a
 
 Removed
+
 - n/a
 
-☝️  espanso trigger: `:commit`
+☝️ espanso trigger: `:commit`
 
 ## example commit message
 
 Add eventing discussion to drift and policy titles
 
 Titles to re/publish upon merge
+
 - Ensuring Approved Packages Are Installed Across System Profiles Using the Drift Service
 - Monitoring and Reacting to Configuration Changes Using Policies
 
 Added
+
 - sections on enabling notifications to 'drift-comparison' and 'policies-monitoring'
 
 Changed
+
 - notification configutation details in 'advisor-service-reports'
 
 Fixed
+
 - n/a
 
 Removed
-- n/a
 
+- n/a
