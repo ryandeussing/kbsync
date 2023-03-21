@@ -1,5 +1,5 @@
 
-⚡ mark a merge request ready
+⚡ mark a merge request ready - and trigger publishing
 
 when your MR should be merged, you can mark it ready in GitLab UI.
 
@@ -17,3 +17,6 @@ when you mark a merge request ready:
 - the Draft: prepending is automatically removed
 - the assigned maintainer is notified
 - the commit is added to the merge queue
+
+when you @-mention the DPM (or whomever publishes the docs) in a comment, they get an alert to merge and publish the changes.
+
