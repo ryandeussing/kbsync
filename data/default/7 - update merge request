@@ -30,3 +30,6 @@ $[issue-branch] git commit -m '{your commit message}' // ⚠️  not 'git commit
 
 $[issue-branch] git push
     - when you push additional commits to an MR they will be squashed on merge
+    
+⚠️  don't use git `commit --amend` when you have an active merge request! 
+⚠️  don't rebase your branch in the GitLab merge request MR! (that will happen at merge time)
