@@ -16,4 +16,7 @@ $[issue-branch] git rebase origin/main // add changes you just pulled from `orig
 
 $[issue-branch] git push -f // force push required any time you've rebased a branch
 
-⚠️ don't rebase and don't force push when you have an open MR!
+⚠️ do not use git commit --amend when you have an active MR! the only time to rebase an MR is when you are merging it
+and Git requires your branch to be rebased to enable a fast-forward merge.
+
+
