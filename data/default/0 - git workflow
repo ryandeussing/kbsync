@@ -1,4 +1,4 @@
-⚡ git workflow
+⚡  git workflow
 
 // This is a highly condensed version of https://docs.engineering.redhat.com/display/HCCDOC/HCCDOC+Git+workflow
 // The workflow steps below are displayed in the sequence a new contributor might use them, from cloning a repository
@@ -46,9 +46,9 @@
 - mark it draft
 - apply the preflighted label
 - note: when your branch has an open MR
-  - ⚠️ do not 'git commit --amend'
-  - ⚠️ do not rebase (don't rebase locally, don't click the rebase button on the MR)
-  - ⚠️ do not force push
+  - ⚠️  do not 'git commit --amend'
+  - ⚠️  do not rebase (don't rebase locally, don't click the rebase button on the MR)
+  - ⚠️  do not force push
 - see `kb 6`
 
 ## update your merge request by applying suggestions in GitLab
