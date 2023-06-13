@@ -4,7 +4,7 @@
 
 $ rm -rf ~/.kb // remove any ~/.kb directory that may exist
 
-$ git clone https://github.com/ryandeussing/kbsync.git ~/.kb // clone cheatsheets into a '~/.kb' directory
+$ git clone git@github.com:ryandeussing/kbsync.git ~/.kb // clone cheatsheets into a '~/.kb' directory
 
 $ kb list // in a new terminal tab - if you don't see a list of cheatsheets, ask for help
 
