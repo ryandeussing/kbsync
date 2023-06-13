@@ -1,4 +1,4 @@
-⚡ amend your commit
+⚡  amend your commit
 
 // We don't want to string together multiple commits that will create a confusing merge request. When possible
 // we want all the changes on an issue branch to be reflected in a single commit.
@@ -9,15 +9,15 @@ $[issue-branch] git add -A // stage all the files with changes
 
 $[issue-branch] git log --oneline // confirm the most recent commit on this branch is yours
 
-☝️ espanso trigger: `:log`
+☝️  espanso trigger: `:log`
 
-⚠️ if the most recent commit is not yours and one created on this issue branch, do not proceed - you may still need to make an initial commit
+⚠️  if the most recent commit is not yours and one created on this issue branch, do not proceed - you may still need to make an initial commit
 
 $[issue-branch] git commit --amend // amend the previous commit
 
-⚠️ to back-out without amending the commit, save a completely empty commit message
+⚠️  to back-out without amending the commit, save a completely empty commit message
 
-☝️ espanso trigger: `:amend`
+☝️  espanso trigger: `:amend`
 
 ## commit message template
 
@@ -45,7 +45,7 @@ Removed
 
 - n/a
 
-☝️ espanso trigger: `:commit`
+☝️  espanso trigger: `:commit`
 
 ## example commit message
 
