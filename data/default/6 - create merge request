@@ -1,4 +1,4 @@
-⚡ create a merge request
+⚡  create a merge request
 
 // When you have changes you believe are ready to merge into main, you're ready to create a draft merge request
 // so they can be considered for inclusion in the shared repo.
@@ -9,7 +9,7 @@
 
 the first time you push a branch, git will give you a url you can use to create a merge request
 
-☝️ ignore that option unless your work is complete the first time you push your issue branch
+☝️  ignore that option unless your work is complete the first time you push your issue branch
 
 ## create an MR in GitLab
 
@@ -21,4 +21,4 @@ the first time you push a branch, git will give you a url you can use to create 
   - if you don't plan to publish the changes upon merging them, add the 'hold' label
 - click 'Create merge request'
 
-⚠️ MRs are disposable before any collaboration has taken place on them. If you open an MR and it's a mess, just close it. Open a new one when your branch is in better shape.
+⚠️  MRs are disposable before any collaboration has taken place on them. If you open an MR and it's a mess, just close it. Open a new one when your branch is in better shape.
