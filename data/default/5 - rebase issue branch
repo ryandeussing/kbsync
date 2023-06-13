@@ -12,7 +12,7 @@ $[issue-branch] git status // make sure you have no uncommited changes on your i
 
 $[issue-branch] git rebase origin/main // add changes you just pulled from `origin main` to your issue branch
 
-⚠️  if you encounter any conflicts, don't panic - follow the instructions git gives you, fix the conflicts, and keep in mind you can always abort the rebase and start over
+⚠️  if you encounter any conflicts, don't panic - follow the instructions, fix the conflicts, and keep in mind you can always abort the rebase and start over
 
 ☝️  does the commit log make sense after a successful rebase? espanso trigger: `:log`
 
