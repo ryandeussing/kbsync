@@ -1,4 +1,4 @@
-⚡ rebase issue branch onto main
+⚡  rebase issue branch onto main
 
 // To catch merge conflicts that might otherwise delay your MR, you should rebase your issue branch. Rebasing your issue
 // branch keeps it up-to-date with changes that have been merged to origin main since you created your issue branch,
@@ -12,9 +12,9 @@ $[issue-branch] git status // make sure you have no uncommited changes on your i
 
 $[issue-branch] git rebase origin/main // add changes you just pulled from `origin main` to your issue branch
 
-☝️ does the commit log make sense? espanso trigger: `:log`
+☝️  does the commit log make sense? espanso trigger: `:log`
 
 $[issue-branch] git push -f // force push required any time you've rebased a branch
 
-⚠️ do not use git commit --amend when you have an active MR
-⚠️ the only time you want to rebase a branch with an MR is when you are merging it
+⚠️  do not use git commit --amend when you have an active MR
+⚠️  the only time you want to rebase a branch with an MR is when you are merging it
