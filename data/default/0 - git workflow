@@ -61,7 +61,7 @@
 
 - 'git pull' the issue branch before making any changes // in case new commits exist on the MR
 - aim for a single commit with any new changes
-- ⚠️ do not amend, do not rebase, do not force push
+- ⚠️  do not amend, do not rebase, do not force push
 - additional commit(s) will be squashed on merge
 - see `kb 7`
 
